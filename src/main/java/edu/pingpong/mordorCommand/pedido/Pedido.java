@@ -2,7 +2,7 @@ package edu.pingpong.mordorCommand.pedido;
 
 public interface Pedido {
 
-    String id();
+    String getId();
     String destino();
     int peso();
 

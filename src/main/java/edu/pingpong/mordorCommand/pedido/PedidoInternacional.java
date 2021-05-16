@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class PedidoInternacional implements Pedido{
 
-    private String id;
+    private final String id;
     private String destino;
     private int peso;
 
@@ -15,7 +15,7 @@ public class PedidoInternacional implements Pedido{
     }
 
     @Override
-    public String id() {
+    public String getId() {
         return this.id;
     }
 
