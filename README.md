@@ -1,14 +1,14 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# Mordor Command
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+En este kata pondremos en práctica los patrones de diseño y los principios SOLID y TDD.
 
-### Setup command
-N/A
+### Problema
+El problema de este Kata es hacer que distintos tipos de pedidos sean procesados. Para tratar los distintos tipos de pedidos tendremos en cuenta diferentes indicaciones o "comandas", según el tipo de pedido que sea.
 
-### Run command
-`gradle test`
 
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+### Command Pattern
+Este patrón nos permite separar la lógica de un objeto y la de su tratamiento. Esto nos facilita la mantenibilidad y extensibilidad del código, haciendo posible la creación de más tipos de pedido o tratamiento sin modificar el código existente.
+
+**El enunciado del Kata:**
+
+[https://github.com/dfleta/mordor-command](https://github.com/dfleta/mordor-command)
