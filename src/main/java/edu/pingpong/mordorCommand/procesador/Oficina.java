@@ -12,7 +12,7 @@ public class Oficina implements Procesador{
 
     public String printarStatus(boolean status, Pedido pedido) {
         return status?
-                "El pedido " + pedido.getId() + " con destino " + pedido.destino() + " ha sido " + Status.ACEPTADO.name():
-                "El pedido " + pedido.getId() + " con destino " + pedido.destino() + " ha sido " + Status.RECHAZADO.name();
+                pedido.destino() + ' ' + Status.ACEPTADO.name():
+                pedido.destino() + ' ' + Status.RECHAZADO.name();
     }
 }
